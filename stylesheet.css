@@ -1,0 +1,96 @@
+body {
+    background-image: url("wallpaper.jpeg");
+    background-color: #cccccc;
+    cursor: url('StarCursor.cur'), pointer;
+}
+
+#siteHolder {
+    background-color: #060D1D;
+    font-family:'Spacia', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color:ghostwhite; 
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 600px;
+    padding: 0 50px 0 50px;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+    text-align: center;
+    color: PaleGoldenRod;
+}
+
+/*Images*/
+
+img {
+    border-radius: 20px 5px 20px 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    background-color: goldenrod;
+    display: flex; /* This is what makes the display 'flex' (go to the row below if there's no space when the webpage size is changed) */ 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    padding: 10px;
+  }
+
+/*this only effects the images in the flex-container*/
+  .flex-container img { 
+    height: 500px;
+    padding: 10px;
+    margin: 20px;
+    background-color: blanchedalmond;
+  }
+
+
+/* Navigation Bar*/
+nav ul {
+    background-color: black;
+    overflow: hidden;
+    list-style-type: none;
+  }
+
+  nav a {
+    float: right;
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: PaleGoldenRod;
+  }
+
+#active {
+    background-color: white;
+    color: black;
+}
+
+#button:hover {
+    background-color: purple;
+    color: white;
+  }
+
+/*Links*/
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+a:active {
+  color: green;
+}
