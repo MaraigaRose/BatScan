@@ -12,50 +12,51 @@
 </head>
 <body>
     <div id="siteHolder">
-        <nav>
-            <ul>
-                <li> <a href="index.html"> Homepage </a> </li>
-                <li> <a href="surveymap.html">Survey Maps</a> </li>
-                <li> <a href="survey.html" id="active"> Survey </a> </li>
-            </ul>
-        </nav>
-        <p>
-        </p>
-            <div id = "quiz">
-                <h1> BatScan Survey</h1>
-                <form name = "Quiz">
-                    <label for="name"> Enter sighting location</label>
-                    <input id="name" type="text" name="name">
-                    <br>
-                    <p> What species of bat did you see?</p>
-                    <input id="Bechstein's bat" type="radio" name="species" value="Bechstein's bat">
-                    <label for="Bechstein's bat">Bechstein's bat</label>
-                    <br>
-                    <input id="Brown long-eared bat" type="radio" name="species" value="Brown long-eared bat">
-                    <label for="Brown long-eared bat">Brown long-eared bat</label>
-                    <br>
-                    <input id="Common pipistrelle" type="radio" name="species" value="Common pipistrelle">
-                    <label for="Common pipistrelle">Common pipistrelle</label>
-                    <br>
-                    <input id="Daubenton's bat" type="radio" name="species" value="Daubenton's bat">
-                    <label for="Daubenton's bat">Daubenton's bat</label>
-                    <br>
+    <img src="banner.png" alt="banner" height="100" width="auto">
+    <nav>
+        <ul>
+            <li> <a href="index.html"> Homepage </a> </li>
+            <li> <a href="identify.html"> Indentification Guide </a> </li>
+            <li> <a href="surveymap.html">Survey Maps</a> </li>
+            <li> <a href="survey.html" id="active"> Survey </a> </li>
+        </ul>
+    </nav>
+     <div id = "quiz">
+        <h1> BatScan Survey</h1>
+        <form name = "Quiz">
+            <label for="name"> Enter sighting location</label>
+             <input id="name" type="text" name="name">
+             <br>
+         <p> What species of bat did you see?</p>
+            <input id="Bechstein's bat" type="radio" name="species" value="Bechstein's bat">
+            <label for="Bechstein's bat">Bechstein's bat</label>
+            <br>
+            <input id="Brown long-eared bat" type="radio" name="species" value="Brown long-eared bat">
+            <label for="Brown long-eared bat">Brown long-eared bat</label>
+            <br>
+            <input id="Common pipistrelle" type="radio" name="species" value="Common pipistrelle">
+            <label for="Common pipistrelle">Common pipistrelle</label>
+            <br>
+            <input id="Daubenton's bat" type="radio" name="species" value="Daubenton's bat">
+            <label for="Daubenton's bat">Daubenton's bat</label>
+            <br>
 
-
-                    <p>How many bats did you see?</p>
-                    <input id="1-5" type="radio" name="amount" value="1-5">
-                    <label for="1-5">1-5</label>
-                    <br>
-                    <input id="6-10" type="radio" name="amount" value="6-10">
-                    <label for="6-10">6-10</label>
-                    <br>
-                    <input id="10+" type="radio" name="colour" value="10+">
-                    <label for="10+">10+</label>
-                    <br>
-                </form>
+           <p>How many bats did you see?</p>
+            <input id="1-5" type="radio" name="amount" value="1-5">
+            <label for="1-5">1-5</label>
+            <br>
+            <input id="6-10" type="radio" name="amount" value="6-10">
+            <label for="6-10">6-10</label>
+            <br>
+            <input id="10+" type="radio" name="colour" value="10+">
+            <label for="10+">10+</label>
+            <br>
+            </form>
             </div>
         <br>
         <button type="button" onclick="checkAnswers()">Submit</button>
+        <br> <br>   
+        <footer>Copyright Maraiga Bailey</footer>
         <br>
     </div>
 </body>
