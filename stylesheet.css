@@ -2,6 +2,7 @@ body {
     background-image: url("wallpaper.jpeg");
     background-color: #cccccc;
     cursor: url('StarCursor.cur'), pointer;
+    text-align: center;
 }
 
 #siteHolder {
@@ -14,7 +15,7 @@ body {
     padding: 0 50px 0 50px;
 }
 
-h1, h2, h3 {
+h1, h2 {
     text-decoration: underline;
     text-align: center;
     color: PaleGoldenRod;
@@ -23,7 +24,7 @@ h1, h2, h3 {
 /*Images*/
 
 img {
-    border-radius: 20px 5px 20px 5px;
+    border-radius: 5px 5px 5px 5px;
     max-width: 100%;
     height: auto;
 }
@@ -37,6 +38,11 @@ img {
     align-items: center;
     align-content: space-around;
     padding: 10px;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    border: solid;
+    color:#060D1D;
+    text-align: center;
   }
 
 /*this only effects the images in the flex-container*/
@@ -93,4 +99,28 @@ a:hover {
 
 a:active {
   color: green;
+}
+
+.grid-container {
+    margin: auto;
+    color:#060D1D;
+    display: grid;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 15px;
+    grid-template-columns: auto auto;
+    background-color: goldenrod;
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid yellowgreen;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: auto;
 }
